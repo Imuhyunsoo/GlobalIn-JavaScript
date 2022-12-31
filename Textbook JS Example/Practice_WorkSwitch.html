@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>월화수목금토일 출근</title>
+</head>
+<body>
+    <h3>월화수목금토일</h3>
+    <hr>
+    <script>
+        day = prompt("월화수목금토일 중에서 입력하세요.", "");
+        switch(day) {
+            case "월" : work = "출근";
+            case "화" : work = "출근";
+            case "수" : work = "출근";
+            case "목" : work = "출근"; 
+            break;
+            case "금" : work = "휴일";
+            case "토" : work = "휴일";
+            case "일" : work = "휴일";
+            break;
+        }
+        document.write(day + "는 " + work);
+    </script>
+</body>
+</html>
